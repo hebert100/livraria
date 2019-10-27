@@ -63,9 +63,6 @@
 																		
          </label>
               <Br />  <Br />
-         <label>
-            <input type="reset" class="button" name="limpar" value="limpar" />
-        </label>   
         <label>
             <input type="submit" class="button" name="enviar" value="Enviar" />
         </label>           
