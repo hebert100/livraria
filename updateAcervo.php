@@ -16,7 +16,7 @@
     //cria a query para Insert ou Select ou Alter table ou Drop;
 
     $sql = "UPDATE acervo SET titulo = '$titulo', autor = '$autor', ano = $ano, preco = $preco, quantidade = $quantidade, tipo = $tipo WHERE id = $id";
-    echo $sql;
+
  
     //Aqui faz a execuçao da Query acima.
     mysqli_query($conn, $sql);
