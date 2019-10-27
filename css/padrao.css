@@ -1,0 +1,83 @@
+/*****************************************************************************
+                             Revisão de CSS
+*****************************************************************************/
+body {
+	text-align				: center ;
+  	font-family				: Tahoma, Verdana, Arial, Helvetica, Sans-serif; 
+	font-size				: 100%
+}
+
+h1 {
+	background				: #87CEEB ;
+	color					: #000000;
+	border					: 0px;
+	width					: 100%;
+	font-weight				: bold;
+	margin-left				: -380px; 
+	left					: 35%;
+	padding-left			: 5px;
+	padding-right			: 5px;
+	padding-top				: 5px;
+	padding-bottom			: 5px;
+	width					: 1124px ;
+	text-align				: center ;
+	text-transform			: uppercase;
+	position				: absolute;
+}
+
+label {
+	color					: #000000;
+	font-weight				: bold;
+	font-size				: 80%;
+	margin-left				: 10px;
+}
+
+caption {
+	background				: #1509C8 ;
+	color					: #FFFF00;
+	border					: 0px;
+	width					: 100%;
+	font-weight				: bold;
+	padding-left			: 2px;
+	padding-right			: 2px;
+	padding-top				: 2px;
+	padding-bottom			: 2px;
+	text-align				: center ;
+	text-transform			: uppercase;
+}	
+
+
+#Frame {
+	font-weight				: normal;
+	text-align				: left ;
+	margin-top				: 50px;
+	margin-bottom			: 10px;
+	margin-left				: 10px;
+	margin-right			: 10px;
+	padding-left			: 15px;
+	padding-right			: 15px;
+	padding-top				: 15px;
+	padding-bottom			: 15px;
+}
+
+
+
+.Botao {
+	width					: 100px ;
+	font-weight				: bold;
+}
+
+.Botoes {
+	text-align				: right ;
+}
+
+.Caixas {
+	font-weight				: normal;
+	text-align				: left ;
+	text-transform				: uppercase;
+	width						: 350px ;
+}
+
+
+
+
