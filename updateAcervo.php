@@ -2,7 +2,7 @@
     include_once("conexao.php");  
  
     //criando as variavies e recebendo da tela
-    $id = $_POST['id']; echo $id;
+    $id = $_POST['id'];
     $editora = $_POST['editora'];
     $titulo = strtoupper($_POST['titulo']);
     $autor = strtoupper($_POST['autor']);
