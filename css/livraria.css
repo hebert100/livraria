@@ -1,0 +1,92 @@
+body {
+	font	: normal 11px verdana; 
+	}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px; /* Width of Menu Items */
+	border-bottom: 1px solid #ccc;
+	}
+
+ul li {
+	position: relative;
+	}
+	
+li ul {
+	position: absolute;
+	left: 149px; /* Set 1px less than menu width */
+	top: 0;
+	display: none;
+	}
+
+/* Styles for Menu Items */
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #393; /* 777  */
+	background: #fff; /* IE6 Bug */
+	padding: 5px;  /* Estava aqui 5px  - aqui altera a espessura da celula do menu */
+	border: 1px solid #393; /*  ccc    */
+	border-bottom: 0;
+	}
+
+/* Fix IE. esconde pra nao aparecer no IE Mac \*/
+* html ul li { float: left; height: 1px; } /* alterei de 1% */
+* html ul li a { height: 1px; }
+/* End */
+
+ul li a:hover { color: #E2144A; background: #f9f9f9; } /* tem q por o hover por conta do IE */
+		
+li ul li a { padding: 2px 5px; } /* Sub Menu */
+		
+li:hover ul, li.over ul { display: block; } /* o pulo do gato...*/
+
+#menu {
+	position	: absolute;
+	left		: 5px; /* Ajusta posição na tela, na vertical */
+	top			: 180px; /* Ajusta a altura */
+	font: normal 11px Verdana;
+}
+
+#titulo {
+	font		: normal 20px Verdana;
+	position	: absolute;  
+	left		: 220px; /* Ajusta na vertical jogando centro tela */
+	top			: 20px; /* Ajusta a altura */
+	color		: #393;
+}
+
+#imgpos {
+	position:absolute;
+	left	:320px;
+	top		:160px;
+}
+
+#logo {
+	position:absolute;
+	left	:5px;
+	top		:5px;
+}
+#rodape {
+	position:absolute;
+	left	:200px;
+	top		:500px;
+	color	: #393;
+	font: normal 11px Verdana;
+}
+
+#botoes {
+	position:absolute;
+	left	:290px;
+	top		:250px;
+}
+
+#centro{
+	position	: absolute;
+	left		: 310px;    /* Ajusta na vertical jogando centro tela */
+	top			: 140px;    /* Ajusta a altura */
+	font: normal 11px Verdana;
+}	
+
